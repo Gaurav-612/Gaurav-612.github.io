@@ -1,7 +1,8 @@
 # Personal Website
 
-This repository contains the source code for my personal website, built using Quarto and deployed on GitHub Pages.
+This repository contains the source code for my personal website, built using Quarto and deployed on GitHub Pages, which can be found [here](https://gmudbhat.com).
 
+[![pages-build-deployment](https://github.com/Gaurav-612/Gaurav-612.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Gaurav-612/Gaurav-612.github.io/actions/workflows/pages/pages-build-deployment)
 ## Overview
 
 This website serves as my personal portfolio and resume, showcasing my professional experience, skills, and projects. It's built with [Quarto](https://quarto.org/docs/get-started/), a next-generation publishing system for data science and technical content.
