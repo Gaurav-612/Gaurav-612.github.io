@@ -26,7 +26,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 :::
 ::: {.column width="85%"}
 #### Limbik
-**Data Scientist** | Kitchener, ON | Jun 2022-Present
+**Data Scientist** | Kitchener, ON | June 2022 - Present
 :::
 
 ::::
@@ -38,7 +38,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 :::
 ::: {.column width="85%"}
 #### Thomson Reuters
-**Machine Learning Intern** | Toronto, ON | Sep 2021-Dec 2021
+**Machine Learning Intern** | Toronto, ON | September 2021 - December 2021
 :::
 
 ::::
@@ -50,7 +50,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 :::
 ::: {.column width="85%"}
 #### Manulife
-**Data Engineer Co-op** | Waterloo, ON | Jan 2021-Apr 2021
+**Data Engineer Co-op** | Waterloo, ON | January 2021 - April 2021
 :::
 
 ::::
@@ -62,7 +62,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 :::
 ::: {.column width="85%"}
 #### KPMG
-**Data Engineer Co-op** | Waterloo, ON | Jul 2020-Aug 2020
+**Data Engineer Co-op** | Waterloo, ON | July 2020 - August 2020
 :::
 
 ::::
@@ -74,7 +74,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 :::
 ::: {.column width="85%"}
 #### RBC
-**Data Scientist Co-op** | Toronto, ON | Sep 2019-Dec 2019
+**Data Scientist Co-op** | Toronto, ON | September 2019 - December 2019
 :::
 
 ::::
@@ -89,7 +89,7 @@ Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
 ### University of Waterloo
 **Honors, Bachelor of Applied Sciences**  
 Management Engineering, Computing Option  
-Waterloo, ON
+Waterloo, ON | September 2017 - April 2022
 
 Relevant coursework: Software Engineering, Data Science
 :::
