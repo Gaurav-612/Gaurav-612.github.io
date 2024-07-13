@@ -1,0 +1,59 @@
+/* css styles */
+.quarto-about-trestles .about-image {
+    width: 30%;  /* Default size */
+    max-width: 300px;  /* Maximum size */
+    min-width: 150px;  /* Minimum size */
+    height: auto;  /* Maintain aspect ratio */
+  }
+  
+  /* Adjust size for smaller screens */
+  @media screen and (max-width: 768px) {
+    .quarto-about-trestles .about-image {
+      width: 50%;  /* Larger percentage on smaller screens */
+      max-width: 200px;  /* Smaller maximum size */
+    }
+  }
+
+
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #004085;
+    text-decoration: none;
+}
+
+
+.columns {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.column {
+  padding: 0 10px;
+}
+
+.column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
