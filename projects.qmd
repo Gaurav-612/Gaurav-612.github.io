@@ -1,9 +1,44 @@
 ---
-title: "Projects"
+title: "My Projects"
+format:
+  html:
+    page-layout: full
+    toc: true
+    jupyter: python3
 ---
 
-## Project 1
-Description of project 1
+```{python}
+#| echo: false
+import yaml
+import pandas as pd
 
-## Project 2
-Description of project 2
+# Load project data
+with open('projects.yml', 'r') as file:
+    projects = yaml.safe_load(file)
+
+# Convert to DataFrame for easier handling
+df = pd.DataFrame(projects)
+
+#| echo: false
+from IPython.display import display, HTML
+
+for _, project in df.iterrows():
+    html = f"""
+    <h4><a href="{project['github']}">{project['title']}</a></h4>
+    <p>{project['description']}</p>
+    <p><strong>Type:</strong> {project['type']}</p>
+    <p><strong>Tags:</strong> {', '.join(project['tags'])}</p>
+    """
+    
+    links = []
+    if 'demo' in project and pd.notna(project['demo']):
+        links.append(f'<a href="{project["demo"]}">Live Demo</a>')
+    if 'notebook' in project and pd.notna(project['notebook']):
+        links.append(f'<a href="{project["notebook"]}">Jupyter Notebook</a>')
+    links.append(f'<a href="{project["github"]}">GitHub Repository</a>')
+    
+    html += "<p>" + " | ".join(links) + "</p>"
+    html += "<hr>"
+    
+    display(HTML(html))
+```

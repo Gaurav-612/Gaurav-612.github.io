@@ -1,0 +1,17 @@
+- title: "RAG Driving Instructor"
+  description: "Learn about driving in Ontario from an AI Instructor"
+  type: "Web App"
+  image: "path/to/project1_image.jpg"
+  tags: ["NVIDIA NIM", "LangChain"]
+  github: "https://github.com/Gaurav-612/rag-driving-instructor"
+  demo: "https://rag-driving-instructor.streamlit.app/"
+
+- title: "Text to SQL"
+  description: "Use natural language to query your own database"
+  type: "Web App"
+  image: "path/to/project2_image.jpg"
+  tags: ["Google Gemini", "SQLite"]
+  github: "https://github.com/Gaurav-612/textToSql"
+  notebook: "https://github.com/Gaurav-612/textToSql/blob/main/app.py"
+
+# Add more projects as needed
