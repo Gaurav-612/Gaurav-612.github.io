@@ -12,6 +12,6 @@
   image: "path/to/project2_image.jpg"
   tags: ["Google Gemini", "SQLite"]
   github: "https://github.com/Gaurav-612/textToSql"
-  notebook: "https://github.com/Gaurav-612/textToSql/blob/main/app.py"
+  demo: "https://github.com/Gaurav-612/textToSql/blob/main/app.py"
 
 # Add more projects as needed
