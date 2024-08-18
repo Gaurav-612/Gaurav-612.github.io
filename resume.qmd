@@ -96,4 +96,4 @@ Relevant coursework: Software Engineering, Data Science
 
 ::::
 
-<a href="files/resume.pdf" class="btn btn-primary" download>Download full resume as PDF</a>
+<a href="files/Gaurav_FT_Resume.pdf" class="btn btn-primary" download>Download full resume as PDF</a>

@@ -1,6 +1,6 @@
 ---
 title: "Gaurav Mudbhatkal"
-subtitle: "Data Scientist | AI and Climate Enthusiast"
+subtitle: "Data Scientist | AI and Sustainability Enthusiast"
 image: images/profile.png
 about:
   template: trestles
@@ -22,4 +22,4 @@ As I inch towards my goal of becoming a full-stack Data Scientist, I’m always 
 
 While completing my undergraduate degree in [Management Engineering](https://uwaterloo.ca/future-students/programs/management-engineering) at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.
 
-Apart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french.
+Apart from work, I spend my time playing football, lifting weights, and [running](https://www.strava.com/athletes/134310864), while trying to brush up on my french.
