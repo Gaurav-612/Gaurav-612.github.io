@@ -1,6 +1,5 @@
 ---
 title: "Gaurav Mudbhatkal"
-subtitle: "Data Scientist | AI and Sustainability Enthusiast"
 image: images/profile.png
 about:
   template: trestles
@@ -16,10 +15,12 @@ about:
       href: https://www.linkedin.com/in/gmudbhat/
 ---
 
-Hi, Gaurav here - I am a Data Scientist at [Limbik](https://www.limbik.com/), where I'm leveraging Cognitive AI to proactively respond to misinformation!
+Building Cognitive AI systems at [Limbik](https://www.limbik.com/) to simulate human response.
 
-As I inch towards my goal of becoming a full-stack Data Scientist, I’m always up to learn something new and work on cool projects. Currently, my interests include LLMs, MLOps, and Climate Tech.
+Aspiring full-stack Data Scientist with a focus on LLMOps, AI Agents and Climate Tech.
 
-While completing my undergraduate degree in [Management Engineering](https://uwaterloo.ca/future-students/programs/management-engineering) at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.
+[Management Engineering](https://uwaterloo.ca/future-students/programs/management-engineering) graduate from the University of Waterloo. 
 
-Apart from work, I spend my time playing football, lifting weights, and [running](https://www.strava.com/athletes/134310864), while trying to brush up on my french.
+Training to become a [hybrid athlete](https://www.strava.com/athletes/134310864).
+
+Enjoy watching soccer, cooking and the outdoors!

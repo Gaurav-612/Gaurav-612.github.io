@@ -1,8 +1,14 @@
 /* css styles */
+body {
+  font-size: 1rem; /* Base font size */
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
 .quarto-about-trestles .about-image {
     width: 30%;  /* Default size */
-    max-width: 300px;  /* Maximum size */
-    min-width: 150px;  /* Minimum size */
+    max-width: 500px;  /* Maximum size */
+    min-width: 200px;  /* Minimum size */
     height: auto;  /* Maintain aspect ratio */
   }
   
@@ -11,6 +17,10 @@
     .quarto-about-trestles .about-image {
       width: 50%;  /* Larger percentage on smaller screens */
       max-width: 200px;  /* Smaller maximum size */
+    }
+
+    body {
+        font-size: 0.9rem; /* Smaller font size for smaller screens */
     }
   }
 

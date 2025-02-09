@@ -1,3 +1,12 @@
+- title: "EnergySwap AI"
+  description: "Leveraging AI Agents and blockchain to enable energy trading"
+  type: "Web App"
+  image: "path/to/project1_image.jpg"
+  tags: ["FastAPI", "Solana", "React", "Python" ]
+  github: "https://github.com/Gaurav-612/energy-agent_agent"
+  demo: "https://www.loom.com/share/21c1b5c36ff54062bef832b592f94a1d"
+
+
 - title: "RAG Driving Instructor"
   description: "Learn about driving in Ontario from an AI Instructor"
   type: "Web App"
