@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "My Projects",
     "section": "",
-    "text": "RAG Driving Instructor\n    Learn about driving in Ontario from an AI Instructor\n    Type: Web App\n    Tags: NVIDIA NIM, LangChain\n    Live Demo | GitHub Repository\n\n\n\n    Text to SQL\n    Use natural language to query your own database\n    Type: Web App\n    Tags: Google Gemini, SQLite\n    Live Demo | GitHub Repository"
+    "text": "EnergySwap AI\n    Leveraging AI Agents and blockchain to enable energy trading\n    Type: Web App\n    Tags: FastAPI, Solana, React, Python\n    Live Demo | GitHub Repository\n\n\n\n    RAG Driving Instructor\n    Learn about driving in Ontario from an AI Instructor\n    Type: Web App\n    Tags: NVIDIA NIM, LangChain\n    Live Demo | GitHub Repository\n\n\n\n    Text to SQL\n    Use natural language to query your own database\n    Type: Web App\n    Tags: Google Gemini, SQLite\n    Live Demo | GitHub Repository"
   },
   {
     "objectID": "resume.html",
@@ -67,6 +67,6 @@
     "href": "index.html",
     "title": "Gaurav Mudbhatkal",
     "section": "",
-    "text": "Hi, Gaurav here - I am a Data Scientist at Limbik, where I’m leveraging Cognitive AI to proactively respond to misinformation!\nAs I inch towards my goal of becoming a full-stack Data Scientist, I’m always up to learn something new and work on cool projects. Currently, my interests include LLMs, MLOps, and Climate Tech.\nWhile completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting weights, and running, while trying to brush up on my french."
+    "text": "Building Cognitive AI systems at Limbik to simulate human response.\nAspiring full-stack Data Scientist with a focus on LLMOps, AI Agents and Climate Tech.\nManagement Engineering graduate from the University of Waterloo.\nTraining to become a hybrid athlete.\nEnjoy watching soccer, cooking and the outdoors!"
   }
 ]
