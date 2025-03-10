@@ -1,0 +1,12 @@
+- title: Podcast with AI Agents Global Media
+  date: March 2025
+  description: Chatted with  AI Agents Global Media about EnergySwapAI - our project from the world's first agent-to-agent payments hackathon! Also shared insights on the current state of AI agents and how we leverage LLMs at Limbik to simulate human response
+  link: https://www.youtube.com/watch?v=jgHie1my_IU
+  is_video: true
+  video_id: jgHie1my_IU  # Replace with your actual YouTube video ID
+
+- title: Half Marathon @ Doha Marathon
+  date: January 2025
+  description: Ran my first half marathon in my home city of Doha - completed it under 2 hours(1:51), just like I'd aimed to do!
+  image: images/half_mara.jpg
+  is_video: false

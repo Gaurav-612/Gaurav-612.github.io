@@ -1,0 +1,13 @@
+- title: Podcast with AI Agents Global Media
+  date: March 2025
+  description: Spoke with AI Agents Global Media about EnergySwapAI -  also shared insights on the current state of AI agents and how we leverage LLMs at Limbik to simulate human response
+  link: https://www.youtube.com/watch?v=jgHie1my_IU
+  is_video: false
+  image: images/podcast.png
+
+- title: Half Marathon @ Doha Marathon
+  date: January 2025
+  description: Completed my first half marathon in Doha - my home city -  in under 2 hours(1:51), just as I'd aimed for!
+  link: https://www.dohamarathonooredoo.com/
+  image: images/half_mara.jpg
+  is_video: false

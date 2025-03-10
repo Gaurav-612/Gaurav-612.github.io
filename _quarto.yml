@@ -9,6 +9,8 @@ website:
         text: Home
       - href: projects.qmd
         text: Projects
+      - href: random.qmd
+        text: Side Missions
       - href: resume.qmd
         text: Resume
       

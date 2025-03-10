@@ -1,0 +1,143 @@
+---
+title: Side Missions
+format:
+  html:
+    page-layout: full
+    toc: true
+    jupyter: python3
+---
+
+<!-- Add your random content here -->
+A collection of ventures beyond work - from physical to intellectual pursuits that keep me accelerating in life.
+
+```{python}
+#| echo: false
+import yaml
+import pandas as pd
+from IPython.display import display, HTML
+
+with open('side_missions.yml', 'r') as file:
+    pursuits = yaml.safe_load(file)
+
+# Sort by date (newest first) if needed
+# df = pd.DataFrame(pursuits).sort_values(by='date', ascending=False)
+df = pd.DataFrame(pursuits)
+
+# Create blog-style HTML with grid layout
+blog_html = """
+<style>
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  .blog-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-card:hover {
+    transform: translateY(-5px);
+  }
+  .blog-content {
+    padding: 15px;
+    flex-grow: 1;
+  }
+  .blog-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .blog-title a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  .blog-title a:hover {
+    color: #0066cc;
+    text-decoration: underline;
+  }
+  .blog-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: none; /* Remove the line under date */
+  }
+  .blog-description {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .media-container {
+    width: 100%;
+    height: 200px; /* Fixed height for all media */
+    overflow: hidden;
+    position: relative;
+    background-color: #f5f5f5;
+  }
+  .blog-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This makes images cover the container while maintaining aspect ratio */
+    object-position: center;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
+<div class="blog-grid">
+"""
+
+for ind, pursuit in df.iterrows():
+    # Determine if this is a video or image entry
+    is_video = pursuit.get('is_video', False)
+    
+    # Get the link for the title (use a default # if not provided)
+    link = pursuit.get('link', '#')
+    
+    # Create the media element (either YouTube embed or image)
+    if is_video and 'video_id' in pursuit:
+        media_element = f"""
+        <div class="media-container">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/{pursuit['video_id']}" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        """
+    else:
+        media_element = f"""
+        <div class="media-container">
+            <img class="blog-media" src="{pursuit.get('image', '')}" alt="{pursuit['title']}">
+        </div>
+        """
+    
+    blog_html += f"""
+    <div class="blog-card">
+        {media_element}
+        <div class="blog-content">
+            <div class="blog-title"><a href="{link}">{pursuit['title']}</a></div>
+            <div class="blog-date">{pursuit['date']}</div>
+            <div class="blog-description">{pursuit['description']}</div>
+        </div>
+    </div>
+    """
+
+blog_html += """
+</div>
+"""
+
+display(HTML(blog_html))
+```
