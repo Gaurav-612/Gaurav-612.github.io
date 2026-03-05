@@ -1,73 +1,59 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "random.html",
+    "href": "random.html",
+    "title": "Side Missions",
     "section": "",
-    "text": "While completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Description of project 1"
-  },
-  {
-    "objectID": "projects.html#project-1",
-    "href": "projects.html#project-1",
-    "title": "Projects",
-    "section": "",
-    "text": "Description of project 1"
-  },
-  {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
-    "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2\nDescription of project 2"
+    "text": "A collection of ventures beyond work - from physical to intellectual pursuits that keep me accelerating in life.\n\n\n\n\n\n\n    \n        \n        \n            \n        \n        \n        \n            Podcast with AI Agents Global Media\n            March 2025\n            Spoke with AI Agents Global Media about EnergySwapAI -  also shared insights on the current state of AI agents and how we leverage LLMs at Limbik to simulate human response\n        \n    \n    \n    \n        \n        \n            \n        \n        \n        \n            Half Marathon @ Doha Marathon\n            January 2025\n            Completed my first half marathon in Doha - my home city -  in under 2 hours(1:51), just as I'd aimed for!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Gaurav Mudbhatkal",
     "section": "",
-    "text": "Hi, Gaurav here - I am a Data Scientist at Limbik, where I’m leveraging Cognitive AI to proactively respond to misinformation!\nAs I inch towards my goal of becoming a full-stack Data Scientist, I’m always up to learn something new and work on cool projects. Currently, my interests include LLMs, MLOps, and Climate Tech.\nWhile completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
+    "text": "Building Cognitive AI systems at Limbik to simulate human response.\nAspiring full-stack Data Scientist with a focus on LLMOps, AI Agents and Climate Tech.\nManagement Engineering graduate from the University of Waterloo.\nTraining to become a hybrid athlete.\nEnjoy watching soccer, cooking and the outdoors!"
   },
   {
-    "objectID": "about.html#hello-im-your-name",
-    "href": "about.html#hello-im-your-name",
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Languages & Tools\n\n\nPython SQL Docker Kubernetes Git ArgoCD Jenkins Cypher/GraphQL C++\n\n\n\n\nData\n\n\nPostgres Neo4j AWS Elastic Apache Spark Azure Databricks\n\n\n\n\nMachine Learning\n\n\nPyTorch HuggingFace Scikit-Learn Metaflow TensorFlow\n\n\n\n\nAI Engineering\n\n\nLangChain LlamaIndex OpenAI Anthropic NVIDIA NIM Weaviate Pinecone\n\n\n\n\nSoft Skills\n\n\nAgile Problem Analysis JIRA Confluence Notion ServiceNow Trello"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "",
+    "text": "Languages & Tools\n\n\nPython SQL Docker Kubernetes Git ArgoCD Jenkins Cypher/GraphQL C++\n\n\n\n\nData\n\n\nPostgres Neo4j AWS Elastic Apache Spark Azure Databricks\n\n\n\n\nMachine Learning\n\n\nPyTorch HuggingFace Scikit-Learn Metaflow TensorFlow\n\n\n\n\nAI Engineering\n\n\nLangChain LlamaIndex OpenAI Anthropic NVIDIA NIM Weaviate Pinecone\n\n\n\n\nSoft Skills\n\n\nAgile Problem Analysis JIRA Confluence Notion ServiceNow Trello"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\n\n\n\n\n\n\nLimbik\n\n\nData Scientist  ·  Kitchener, ON  ·  June 2022 – Present\n\n\n\n\n\n\n\n\n\nThomson Reuters\n\n\nMachine Learning Intern  ·  Toronto, ON  ·  Sept 2021 – Dec 2021\n\n\n\n\n\n\n\n\n\nManulife\n\n\nData Engineer Co-op  ·  Waterloo, ON  ·  Jan 2021 – Apr 2021\n\n\n\n\n\n\n\n\n\nKPMG\n\n\nData Engineer Co-op  ·  Waterloo, ON  ·  Jul 2020 – Aug 2020\n\n\n\n\n\n\n\n\n\nRBC\n\n\nData Scientist Co-op  ·  Toronto, ON  ·  Sept 2019 – Dec 2019"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\n\n\n\n\n\n\nUniversity of Waterloo\n\n\nBASc Management Engineering, Computing Option  ·  2017 – 2022"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Projects",
+    "section": "",
+    "text": "EnergySwap AI\n    Leveraging AI Agents and blockchain to enable energy trading\n    Type: Web App\n    Tags: FastAPI, Solana, React, Python\n    Live Demo | GitHub Repository\n\n\n\n    RAG Driving Instructor\n    Learn about driving in Ontario from an AI Instructor\n    Type: Web App\n    Tags: NVIDIA NIM, LangChain\n    Live Demo | GitHub Repository\n\n\n\n    Text to SQL\n    Use natural language to query your own database\n    Type: Web App\n    Tags: Google Gemini, SQLite\n    Live Demo | GitHub Repository"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "[Add your brief bio or introduction here]\n[You can add more sections about your skills, experience, or interests]"
-  },
-  {
-    "objectID": "index.html#welcome-to-my-portfolio",
-    "href": "index.html#welcome-to-my-portfolio",
-    "title": "Gaurav Mudbhatkal",
-    "section": "",
-    "text": "Hello, I’m [Your Name]. [Brief introduction about yourself]"
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Gaurav Mudbhatkal",
-    "section": "About Me",
-    "text": "About Me\nWhile completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
-  },
-  {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Gaurav Mudbhatkal",
-    "section": "Featured Projects",
-    "text": "Featured Projects\nHere are some of my recent projects:\n\nProject 1 Name Brief description of Project 1\nProject 2 Name Brief description of Project 2\n\n[You can add more sections as needed]"
-  },
-  {
-    "objectID": "index.html#welcome-to-my-website",
-    "href": "index.html#welcome-to-my-website",
-    "title": "Gaurav Mudbhatkal",
-    "section": "",
-    "text": "Hi, Gaurav here - I am a Data Scientist at Limbik, where I’m leveraging Cognitive AI to proactively respond to misinformation!\nAs I inch towards my goal of becoming a full-stack Data Scientist, I’m always up to learn something new and work on cool projects. Currently, my interests include LLMs, MLOps, and Climate Tech."
+    "text": "While completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
   },
   {
     "objectID": "about.html#background",
@@ -89,82 +75,5 @@
     "title": "About Me",
     "section": "Education",
     "text": "Education\nUniversity of Waterloo | Waterloo, ON B.A.Sc. in Management Engineering | Sept 2018 - Apr 2023"
-  },
-  {
-    "objectID": "index.html#background",
-    "href": "index.html#background",
-    "title": "Gaurav Mudbhatkal",
-    "section": "Background",
-    "text": "Background\nWhile completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
-  },
-  {
-    "objectID": "index.html#skills",
-    "href": "index.html#skills",
-    "title": "Gaurav Mudbhatkal",
-    "section": "Skills",
-    "text": "Skills\n\nData Science: Python, R, SQL, Machine Learning, Deep Learning\nMLOps: Docker, Kubernetes, CI/CD\nCloud: AWS, GCP\nOther: Git, Agile methodologies"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Gaurav Mudbhatkal",
-    "section": "Education",
-    "text": "Education\nUniversity of Waterloo | Waterloo, ON B.A.Sc. in Management Engineering | Sept 2018 - Apr 2023"
-  },
-  {
-    "objectID": "index.html#a-little-about-me",
-    "href": "index.html#a-little-about-me",
-    "title": "Gaurav Mudbhatkal",
-    "section": "A little about me",
-    "text": "A little about me\nWhile completing my undergraduate degree in Management Engineering at the University of Waterloo, the co-op program gave me exposure to data science and machine learning in various environments.\nApart from work, I spend my time playing football, lifting, and going on runs, while trying to brush up on my french."
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "My Resume",
-    "section": "",
-    "text": "Python, SQL, Docker, Kubernetes, Git, ArgoCD, Jenkins, Cypher/GraphQL, C++\n\n\n\nPostgres, Neo4j, AWS, Elastic, Weaviate, Pinecone, Apache Spark, Azure, Databricks\n\n\n\nPyTorch, HuggingFace, Scikit-Learn, LangChain, OpenAI, Metaflow, LlamaIndex, TensorFlow\n\n\n\nAgile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello"
-  },
-  {
-    "objectID": "resume.html#contact",
-    "href": "resume.html#contact",
-    "title": "Gaurav Mudbhatkal",
-    "section": "",
-    "text": "Email: gmudbhat@gmail.com\nGithub | LinkedIn"
-  },
-  {
-    "objectID": "resume.html#summary-of-skills",
-    "href": "resume.html#summary-of-skills",
-    "title": "My Resume",
-    "section": "",
-    "text": "Python, SQL, Docker, PostgreSQL, Kubernetes, AWS, Argo, Cypher, Neo4j, Elastic, Spark\n\n\n\nPyTorch, HuggingFace, Scikit-Learn, OpenAI, LangChain, Metaflow, LlamaIndex, TensorFlow\n\n\n\nAgile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello"
-  },
-  {
-    "objectID": "resume.html#experience",
-    "href": "resume.html#experience",
-    "title": "My Resume",
-    "section": "Experience",
-    "text": "Experience\n\n\n\n\n\nLimbik\nData Scientist | Kitchener, ON | Jun 2022-Present\n\n\n\n\n\n\n\n\nThomson Reuters\nMachine Learning Intern | Toronto, ON | Sep 2021-Dec 2021\n\n\n\n\n\n\n\n\nManulife\nData Engineer Co-op | Waterloo, ON | Jan 2021-Apr 2021\n\n\n\n\n\n\n\n\nKPMG\nData Engineer Co-op | Waterloo, ON | Jul 2020-Aug 2020\n\n\n\n\n\n\n\n\nRBC\nData Scientist Co-op | Toronto, ON | Sep 2019-Dec 2019"
-  },
-  {
-    "objectID": "resume.html#education",
-    "href": "resume.html#education",
-    "title": "My Resume",
-    "section": "Education",
-    "text": "Education\n\n\n\n\n\nUniversity of Waterloo\nHonors, Bachelor of Applied Sciences\nManagement Engineering, Computing Option\nWaterloo, ON\nRelevant coursework: Software Engineering, Data Science\n\n\n\nDownload full resume as PDF"
-  },
-  {
-    "objectID": "resume.html#projects-and-extracurriculars",
-    "href": "resume.html#projects-and-extracurriculars",
-    "title": "Gaurav Mudbhatkal",
-    "section": "Projects and Extracurriculars",
-    "text": "Projects and Extracurriculars\n\nConrad School of Entrepreneurship\nMay 2020\n\nConducted and pitched research on the storage & analysis of digital evidence data by Law Enforcement for a chance to win $15,000 in funding through the Problem Pitch Competition"
-  },
-  {
-    "objectID": "resume.html#skills",
-    "href": "resume.html#skills",
-    "title": "My Resume",
-    "section": "",
-    "text": "Python, SQL, Docker, Kubernetes, Git, ArgoCD, Jenkins, Cypher/GraphQL, C++\n\n\n\nPostgres, Neo4j, AWS, Elastic, Weaviate, Pinecone, Apache Spark, Azure, Databricks\n\n\n\nPyTorch, HuggingFace, Scikit-Learn, LangChain, OpenAI, Metaflow, LlamaIndex, TensorFlow\n\n\n\nAgile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello"
   }
 ]

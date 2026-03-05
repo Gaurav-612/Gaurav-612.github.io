@@ -1,99 +1,223 @@
 ---
-title: "My Resume"
-subtitle: "A quick overview"
+title: "Resume"
+format:
+  html:
+    page-layout: article
 ---
 
+<style>
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.skill-group {
+  margin-bottom: 0.8rem;
+}
+
+.skill-group-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #999;
+  margin-bottom: 0.4rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.82rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  align-items: flex-start;
+}
+
+.entry-logo {
+  width: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+
+.entry-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.entry-body {
+  flex: 1;
+  border-left: 2px solid #e5e7eb;
+  padding-left: 1rem;
+}
+
+.entry-company {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 0.1rem;
+}
+
+.entry-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.resume-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+</style>
+
+<div class="resume-section">
 ## Skills
 
-#### Languages and Tools
-Python, SQL, Docker, Kubernetes, Git, ArgoCD, Jenkins, Cypher/GraphQL, C++
+<div class="skill-group">
+<div class="skill-group-label">Languages & Tools</div>
+<div class="skill-tags">
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SQL</span>
+<span class="skill-tag">Docker</span>
+<span class="skill-tag">Kubernetes</span>
+<span class="skill-tag">Git</span>
+<span class="skill-tag">ArgoCD</span>
+<span class="skill-tag">Jenkins</span>
+<span class="skill-tag">Cypher/GraphQL</span>
+<span class="skill-tag">C++</span>
+</div>
+</div>
 
-#### Data
-Postgres, Neo4j, AWS, Elastic, Weaviate, Pinecone, Apache Spark, Azure, Databricks
+<div class="skill-group">
+<div class="skill-group-label">Data</div>
+<div class="skill-tags">
+<span class="skill-tag">Postgres</span>
+<span class="skill-tag">Neo4j</span>
+<span class="skill-tag">AWS</span>
+<span class="skill-tag">Elastic</span>
+<span class="skill-tag">Apache Spark</span>
+<span class="skill-tag">Azure</span>
+<span class="skill-tag">Databricks</span>
+</div>
+</div>
 
-#### Machine Learning
-PyTorch, HuggingFace, Scikit-Learn, LangChain, OpenAI, Metaflow, LlamaIndex, TensorFlow
+<div class="skill-group">
+<div class="skill-group-label">Machine Learning</div>
+<div class="skill-tags">
+<span class="skill-tag">PyTorch</span>
+<span class="skill-tag">HuggingFace</span>
+<span class="skill-tag">Scikit-Learn</span>
+<span class="skill-tag">Metaflow</span>
+<span class="skill-tag">TensorFlow</span>
+</div>
+</div>
 
-#### Soft Skills
-Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello
+<div class="skill-group">
+<div class="skill-group-label">AI Engineering</div>
+<div class="skill-tags">
+<span class="skill-tag">LangChain</span>
+<span class="skill-tag">LlamaIndex</span>
+<span class="skill-tag">OpenAI</span>
+<span class="skill-tag">Anthropic</span>
+<span class="skill-tag">NVIDIA NIM</span>
+<span class="skill-tag">Weaviate</span>
+<span class="skill-tag">Pinecone</span>
+</div>
+</div>
 
+<div class="skill-group">
+<div class="skill-group-label">Soft Skills</div>
+<div class="skill-tags">
+<span class="skill-tag">Agile</span>
+<span class="skill-tag">Problem Analysis</span>
+<span class="skill-tag">JIRA</span>
+<span class="skill-tag">Confluence</span>
+<span class="skill-tag">Notion</span>
+<span class="skill-tag">ServiceNow</span>
+<span class="skill-tag">Trello</span>
+</div>
+</div>
+</div>
+
+<div class="resume-section">
 ## Experience
 
-:::: {.columns}
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/limbik2.png" alt="Limbik"></div>
+<div class="entry-body">
+<p class="entry-company">Limbik</p>
+<p class="entry-meta">Data Scientist &nbsp;·&nbsp; Kitchener, ON &nbsp;·&nbsp; June 2022 – Present</p>
+</div>
+</div>
 
-::: {.column width="15%"}
-![](images/logos/limbik2.png){width=50px}
-:::
-::: {.column width="85%"}
-#### Limbik
-**Data Scientist** | Kitchener, ON | June 2022 - Present
-:::
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/thomson-reuters.png" alt="Thomson Reuters"></div>
+<div class="entry-body">
+<p class="entry-company">Thomson Reuters</p>
+<p class="entry-meta">Machine Learning Intern &nbsp;·&nbsp; Toronto, ON &nbsp;·&nbsp; Sept 2021 – Dec 2021</p>
+</div>
+</div>
 
-::::
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/manulife.png" alt="Manulife"></div>
+<div class="entry-body">
+<p class="entry-company">Manulife</p>
+<p class="entry-meta">Data Engineer Co-op &nbsp;·&nbsp; Waterloo, ON &nbsp;·&nbsp; Jan 2021 – Apr 2021</p>
+</div>
+</div>
 
-:::: {.columns}
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/kpmg.png" alt="KPMG"></div>
+<div class="entry-body">
+<p class="entry-company">KPMG</p>
+<p class="entry-meta">Data Engineer Co-op &nbsp;·&nbsp; Waterloo, ON &nbsp;·&nbsp; Jul 2020 – Aug 2020</p>
+</div>
+</div>
 
-::: {.column width="15%"}
-![](images/logos/thomson-reuters.png){width=50px}
-:::
-::: {.column width="85%"}
-#### Thomson Reuters
-**Machine Learning Intern** | Toronto, ON | September 2021 - December 2021
-:::
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/rbc.png" alt="RBC"></div>
+<div class="entry-body">
+<p class="entry-company">RBC</p>
+<p class="entry-meta">Data Scientist Co-op &nbsp;·&nbsp; Toronto, ON &nbsp;·&nbsp; Sept 2019 – Dec 2019</p>
+</div>
+</div>
+</div>
 
-::::
-
-:::: {.columns}
-
-::: {.column width="15%"}
-![](images/logos/manulife.png){width=50px}
-:::
-::: {.column width="85%"}
-#### Manulife
-**Data Engineer Co-op** | Waterloo, ON | January 2021 - April 2021
-:::
-
-::::
-
-:::: {.columns}
-
-::: {.column width="15%"}
-![](images/logos/kpmg.png){width=80px}
-:::
-::: {.column width="85%"}
-#### KPMG
-**Data Engineer Co-op** | Waterloo, ON | July 2020 - August 2020
-:::
-
-::::
-
-:::: {.columns}
-
-::: {.column width="15%"}
-![](images/logos/rbc.png){width=80px}
-:::
-::: {.column width="85%"}
-#### RBC
-**Data Scientist Co-op** | Toronto, ON | September 2019 - December 2019
-:::
-
-::::
-
-
+<div class="resume-section">
 ## Education
-:::: {.columns}
-::: {.column width="15%"}
-![](images/logos/uwaterloo.png){width=80px}
-:::
-::: {.column width="85%"}
-### University of Waterloo
-**Honors, Bachelor of Applied Sciences**  
-Management Engineering, Computing Option  
-Waterloo, ON | September 2017 - April 2022
 
-Relevant coursework: Software Engineering, Data Science
-:::
+<div class="entry">
+<div class="entry-logo"><img src="images/logos/uwaterloo.png" alt="University of Waterloo"></div>
+<div class="entry-body">
+<p class="entry-company">University of Waterloo</p>
+<p class="entry-meta">BASc Management Engineering, Computing Option &nbsp;·&nbsp; 2017 – 2022</p>
+</div>
+</div>
+</div>
 
-::::
-
-<a href="files/Gaurav_Web_Resume.pdf" class="btn btn-primary" download>Download full resume as PDF</a>
+<div class="resume-footer" style="text-align: center;">
+<a href="files/Gaurav_Web_Resume.pdf" class="btn btn-primary" target="_blank">View Resume PDF</a>
+</div>

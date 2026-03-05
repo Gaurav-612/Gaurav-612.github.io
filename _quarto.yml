@@ -1,5 +1,8 @@
 project:
   type: website
+  output-dir: docs
+  resources:
+    - llms.txt
 
 website:
   title: "Gaurav Mudbhatkal"

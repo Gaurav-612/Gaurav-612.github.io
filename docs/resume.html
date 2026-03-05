@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gaurav Mudbhatkal - My Resume</title>
+<title>Gaurav Mudbhatkal - Resume</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,6 +93,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./random.html"> 
+<span class="menu-text">Side Missions</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="./resume.html" aria-current="page"> 
 <span class="menu-text">Resume</span></a>
   </li>  
@@ -113,8 +121,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Resume</h1>
-<p class="subtitle lead">A quick overview</p>
+<h1 class="title">Resume</h1>
 </div>
 
 
@@ -131,97 +138,225 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="skills" class="level2">
+<style>
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #888;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.skill-group {
+  margin-bottom: 0.8rem;
+}
+
+.skill-group-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #999;
+  margin-bottom: 0.4rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.82rem;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  align-items: flex-start;
+}
+
+.entry-logo {
+  width: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 2px;
+}
+
+.entry-logo img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.entry-body {
+  flex: 1;
+  border-left: 2px solid #e5e7eb;
+  padding-left: 1rem;
+}
+
+.entry-company {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 0.1rem;
+}
+
+.entry-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.resume-footer {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+</style>
+<section id="skills" class="level2 resume-section">
 <h2 class="anchored" data-anchor-id="skills">Skills</h2>
-<section id="languages-and-tools" class="level4">
-<h4 class="anchored" data-anchor-id="languages-and-tools">Languages and Tools</h4>
-<p>Python, SQL, Docker, Kubernetes, Git, ArgoCD, Jenkins, Cypher/GraphQL, C++</p>
+<div class="skill-group">
+<div class="skill-group-label">
+Languages &amp; Tools
+</div>
+<div class="skill-tags">
+<p><span class="skill-tag">Python</span> <span class="skill-tag">SQL</span> <span class="skill-tag">Docker</span> <span class="skill-tag">Kubernetes</span> <span class="skill-tag">Git</span> <span class="skill-tag">ArgoCD</span> <span class="skill-tag">Jenkins</span> <span class="skill-tag">Cypher/GraphQL</span> <span class="skill-tag">C++</span></p>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-group-label">
+Data
+</div>
+<div class="skill-tags">
+<p><span class="skill-tag">Postgres</span> <span class="skill-tag">Neo4j</span> <span class="skill-tag">AWS</span> <span class="skill-tag">Elastic</span> <span class="skill-tag">Apache Spark</span> <span class="skill-tag">Azure</span> <span class="skill-tag">Databricks</span></p>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-group-label">
+Machine Learning
+</div>
+<div class="skill-tags">
+<p><span class="skill-tag">PyTorch</span> <span class="skill-tag">HuggingFace</span> <span class="skill-tag">Scikit-Learn</span> <span class="skill-tag">Metaflow</span> <span class="skill-tag">TensorFlow</span></p>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-group-label">
+AI Engineering
+</div>
+<div class="skill-tags">
+<p><span class="skill-tag">LangChain</span> <span class="skill-tag">LlamaIndex</span> <span class="skill-tag">OpenAI</span> <span class="skill-tag">Anthropic</span> <span class="skill-tag">NVIDIA NIM</span> <span class="skill-tag">Weaviate</span> <span class="skill-tag">Pinecone</span></p>
+</div>
+</div>
+<div class="skill-group">
+<div class="skill-group-label">
+Soft Skills
+</div>
+<div class="skill-tags">
+<p><span class="skill-tag">Agile</span> <span class="skill-tag">Problem Analysis</span> <span class="skill-tag">JIRA</span> <span class="skill-tag">Confluence</span> <span class="skill-tag">Notion</span> <span class="skill-tag">ServiceNow</span> <span class="skill-tag">Trello</span></p>
+</div>
+</div>
 </section>
-<section id="data" class="level4">
-<h4 class="anchored" data-anchor-id="data">Data</h4>
-<p>Postgres, Neo4j, AWS, Elastic, Weaviate, Pinecone, Apache Spark, Azure, Databricks</p>
-</section>
-<section id="machine-learning" class="level4">
-<h4 class="anchored" data-anchor-id="machine-learning">Machine Learning</h4>
-<p>PyTorch, HuggingFace, Scikit-Learn, LangChain, OpenAI, Metaflow, LlamaIndex, TensorFlow</p>
-</section>
-<section id="soft-skills" class="level4">
-<h4 class="anchored" data-anchor-id="soft-skills">Soft Skills</h4>
-<p>Agile, Problem Analysis, JIRA, Confluence, Notion, ServiceNow, Trello</p>
-</section>
-</section>
-<section id="experience" class="level2">
+<section id="experience" class="level2 resume-section">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/limbik2.png" class="img-fluid" width="50"></p>
-</div><div class="column" style="width:85%;">
-<section id="limbik" class="level4">
-<h4 class="anchored" data-anchor-id="limbik">Limbik</h4>
-<p><strong>Data Scientist</strong> | Kitchener, ON | Jun 2022-Present</p>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/limbik2.png" alt="Limbik">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+Limbik
+</p>
+<p class="entry-meta">
+Data Scientist &nbsp;·&nbsp; Kitchener, ON &nbsp;·&nbsp; June 2022 – Present
+</p>
+</div>
+</div>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/thomson-reuters.png" alt="Thomson Reuters">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+Thomson Reuters
+</p>
+<p class="entry-meta">
+Machine Learning Intern &nbsp;·&nbsp; Toronto, ON &nbsp;·&nbsp; Sept 2021 – Dec 2021
+</p>
+</div>
+</div>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/manulife.png" alt="Manulife">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+Manulife
+</p>
+<p class="entry-meta">
+Data Engineer Co-op &nbsp;·&nbsp; Waterloo, ON &nbsp;·&nbsp; Jan 2021 – Apr 2021
+</p>
+</div>
+</div>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/kpmg.png" alt="KPMG">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+KPMG
+</p>
+<p class="entry-meta">
+Data Engineer Co-op &nbsp;·&nbsp; Waterloo, ON &nbsp;·&nbsp; Jul 2020 – Aug 2020
+</p>
+</div>
+</div>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/rbc.png" alt="RBC">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+RBC
+</p>
+<p class="entry-meta">
+Data Scientist Co-op &nbsp;·&nbsp; Toronto, ON &nbsp;·&nbsp; Sept 2019 – Dec 2019
+</p>
+</div>
+</div>
 </section>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/thomson-reuters.png" class="img-fluid" width="50"></p>
-</div><div class="column" style="width:85%;">
-<section id="thomson-reuters" class="level4">
-<h4 class="anchored" data-anchor-id="thomson-reuters">Thomson Reuters</h4>
-<p><strong>Machine Learning Intern</strong> | Toronto, ON | Sep 2021-Dec 2021</p>
-</section>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/manulife.png" class="img-fluid" width="50"></p>
-</div><div class="column" style="width:85%;">
-<section id="manulife" class="level4">
-<h4 class="anchored" data-anchor-id="manulife">Manulife</h4>
-<p><strong>Data Engineer Co-op</strong> | Waterloo, ON | Jan 2021-Apr 2021</p>
-</section>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/kpmg.png" class="img-fluid" width="80"></p>
-</div><div class="column" style="width:85%;">
-<section id="kpmg" class="level4">
-<h4 class="anchored" data-anchor-id="kpmg">KPMG</h4>
-<p><strong>Data Engineer Co-op</strong> | Waterloo, ON | Jul 2020-Aug 2020</p>
-</section>
-</div>
-</div>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/rbc.png" class="img-fluid" width="80"></p>
-</div><div class="column" style="width:85%;">
-<section id="rbc" class="level4">
-<h4 class="anchored" data-anchor-id="rbc">RBC</h4>
-<p><strong>Data Scientist Co-op</strong> | Toronto, ON | Sep 2019-Dec 2019</p>
-</section>
-</div>
-</div>
-</section>
-<section id="education" class="level2">
+<section id="education" class="level2 resume-section">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<div class="columns">
-<div class="column" style="width:15%;">
-<p><img src="images/logos/uwaterloo.png" class="img-fluid" width="80"></p>
-</div><div class="column" style="width:85%;">
-<section id="university-of-waterloo" class="level3">
-<h3 class="anchored" data-anchor-id="university-of-waterloo">University of Waterloo</h3>
-<p><strong>Honors, Bachelor of Applied Sciences</strong><br>
-Management Engineering, Computing Option<br>
-Waterloo, ON</p>
-<p>Relevant coursework: Software Engineering, Data Science</p>
-</section>
+<div class="entry">
+<div class="entry-logo">
+<img src="images/logos/uwaterloo.png" alt="University of Waterloo">
+</div>
+<div class="entry-body">
+<p class="entry-company">
+University of Waterloo
+</p>
+<p class="entry-meta">
+BASc Management Engineering, Computing Option &nbsp;·&nbsp; 2017 – 2022
+</p>
 </div>
 </div>
-<p><a href="files/resume.pdf" class="btn btn-primary" download="">Download full resume as PDF</a></p>
-
-
 </section>
+<div class="resume-footer" style="text-align: center;">
+<p><a href="files/Gaurav_Web_Resume.pdf" class="btn btn-primary" target="_blank">View Resume PDF</a></p>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
