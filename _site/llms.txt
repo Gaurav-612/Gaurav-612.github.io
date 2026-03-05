@@ -1,0 +1,34 @@
+# Gaurav Mudbhatkal
+
+> Data Scientist and AI systems builder focused on LLMOps, AI Agents, and Climate Tech. Currently building Cognitive AI systems at Limbik to simulate human response. Management Engineering graduate from the University of Waterloo. Training to become a hybrid athlete.
+
+## Pages
+
+- [Home](https://gmudbhat.com/index.html): Bio, social links (GitHub, Twitter, LinkedIn)
+- [Projects](https://gmudbhat.com/projects.html): Portfolio of AI and data science projects
+- [Side Missions](https://gmudbhat.com/random.html): Personal ventures — athletic achievements, talks, and other pursuits
+- [Resume](https://gmudbhat.com/resume.html): Full work history, skills, and education
+
+## Projects
+
+- **EnergySwap AI** — AI Agents and blockchain for peer-to-peer energy trading. Stack: FastAPI, Solana, React, Python. [GitHub](https://github.com/Gaurav-612/energy-agent_agent) | [Demo](https://www.loom.com/share/21c1b5c36ff54062bef832b592f94a1d)
+- **RAG Driving Instructor** — AI instructor for Ontario driving knowledge using retrieval-augmented generation. Stack: NVIDIA NIM, LangChain. [GitHub](https://github.com/Gaurav-612/rag-driving-instructor) | [Demo](https://rag-driving-instructor.streamlit.app/)
+- **Text to SQL** — Natural language interface for querying databases. Stack: Google Gemini, SQLite. [GitHub](https://github.com/Gaurav-612/textToSql)
+
+## Experience
+
+- **Limbik** — Data Scientist | Kitchener, ON | June 2022 – Present
+- **Thomson Reuters** — Machine Learning Intern | Toronto, ON | Sept 2021 – Dec 2021
+- **Manulife** — Data Engineer Co-op | Waterloo, ON | Jan 2021 – Apr 2021
+- **KPMG** — Data Engineer Co-op | Waterloo, ON | Jul 2020 – Aug 2020
+- **RBC** — Data Scientist Co-op | Toronto, ON | Sept 2019 – Dec 2019
+
+## Skills
+
+- **Languages & Tools:** Python, SQL, Docker, Kubernetes, Git, ArgoCD, Jenkins, C++
+- **Data:** Postgres, Neo4j, AWS, Elastic, Weaviate, Pinecone, Apache Spark, Azure, Databricks
+- **ML:** PyTorch, HuggingFace, Scikit-Learn, LangChain, OpenAI, Metaflow, LlamaIndex, TensorFlow
+
+## Education
+
+- **University of Waterloo** — BASc Management Engineering (Computing Option) | 2017 – 2022
