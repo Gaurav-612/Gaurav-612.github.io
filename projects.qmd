@@ -100,7 +100,9 @@ grid_html = """
 """
 
 for _, project in df.iterrows():
-    title_url = project.get('github') or project.get('demo', '#')
+    github = project.get('github')
+    demo = project.get('demo')
+    title_url = (github if pd.notna(github) else None) or (demo if pd.notna(demo) else None) or '#'
     tags_html = "".join(f'<span class="project-tag">{tag}</span>' for tag in project.get('tags', []))
 
     links = []
