@@ -15,9 +15,9 @@ about:
       href: https://www.linkedin.com/in/gmudbhat/
 ---
 
-Building Cognitive AI systems at [Limbik](https://www.limbik.com/) to simulate human response.
+Building AI systems at [Limbik](https://www.limbik.com/) to simulate human perception and response.
 
-Aspiring full-stack Data Scientist with a focus on LLMOps, AI Agents and Climate Tech.
+Aspiring AI Engineer with a focus on Agents & LLMOps, and a keen interest in Climate Tech.
 
 [Management Engineering](https://uwaterloo.ca/future-students/programs/management-engineering) graduate from the University of Waterloo. 
 

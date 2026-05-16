@@ -5,6 +5,7 @@ format:
     page-layout: full
     toc: true
     jupyter: python3
+freeze: false
 ---
 
 <!-- Add your random content here -->
@@ -115,9 +116,10 @@ for ind, pursuit in df.iterrows():
         </div>
         """
     else:
+        fit = pursuit.get('image_fit', 'cover')
         media_element = f"""
         <div class="media-container">
-            <img class="blog-media" src="{pursuit.get('image', '')}" alt="{pursuit['title']}">
+            <img class="blog-media" src="{pursuit.get('image', '')}" alt="{pursuit['title']}" style="object-fit: {fit};">
         </div>
         """
 

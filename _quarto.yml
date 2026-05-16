@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - llms.txt
+    - CNAME
 
 website:
   title: "Gaurav Mudbhatkal"
@@ -17,6 +18,12 @@ website:
       - href: resume.qmd
         text: Resume
       
+
+jupyter:
+  kernelspec:
+    name: python3
+    display_name: Python 3
+    language: python
 
 format:
   html:

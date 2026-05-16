@@ -1,3 +1,11 @@
+- title: Half Marathon @ Toronto Marathon
+  date: May 2026
+  description: Ran my second half marathon in Toronto in 1:46 - a new PR!
+  link: https://www.torontomarathon.com/
+  image: images/toronto_half.jpg
+  image_fit: contain
+  is_video: false
+
 - title: Podcast with AI Agents Global Media
   date: March 2025
   description: Spoke with AI Agents Global Media about EnergySwapAI -  also shared insights on the current state of AI agents and how we leverage LLMs at Limbik to simulate human response
